@@ -5,12 +5,12 @@ const Blog = () => {
     <section className="padding-x py-20 bg-light bg-opacity-50" id="blog">
       <div className="max-width">
         <div>
-          <h1 className="text-primary text-3xl pb-10">Latest Articles</h1>
+          <h1 className="text-primary text-4xl pb-10">Latest Articles</h1>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
           {articlesData.map((article, index) => (
-            <div key={index} className="">
+            <div key={index}>
               <img
                 src={article.image}
                 alt={article.title}
